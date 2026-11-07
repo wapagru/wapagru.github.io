@@ -1,0 +1,37 @@
+
+Polityka Prywatności dla aplikacji rclone (Google Drive Integration)
+
+Ostatnia aktualizacja: 7 listopada 2026 r.
+Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych oraz informacji na kontach Google Drive w związku z korzystaniem z aplikacji rclone skonfigurowanej z własnym identyfikatorem klienta (Client ID).
+
+1. Kto jest administratorem danych?
+
+Administratorem danych jest użytkownik konfigurujący i uruchamiający instancję programu rclone. Aplikacja ma charakter prywatny/wewnętrzny i służy wyłącznie do celów osobistych lub operacyjnych użytkownika.
+
+2. Jakie dane uzyskujemy i jak ich używamy?
+
+Nasza aplikacja (rclone) łączy się z Twoim kontem Google Drive za pomocą oficjalnego protokołu OAuth 2.0.
+• Zakres dostępu (Scopes): Aplikacja żąda dostępu do plików na Twoim Dysku Google (https://googleapis.com), aby umożliwić synchronizację, przesyłanie, pobieranie oraz usuwanie plików – zgodnie z poleceniami wydawanymi przez Ciebie w wierszu poleceń rclone.
+• Przechowywanie danych tokenu: Tokeny uwierzytelniające (Access Token oraz Refresh Token) są zapisywane lokalnie na Twoim urządzeniu w pliku konfiguracyjnym rclone (standardowo rclone.conf).
+
+3. Gdzie trafiają Twoje dane?
+
+• Brak zewnętrznych serwerów: Żadne dane, pliki, metadane ani dane uwierzytelniające nie są wysyłane do twórców rclone ani do żadnych innych firm trzecich.
+• Bezpośrednia komunikacja: Wszelki ruch odbywa się wyłącznie i bezpośrednio pomiędzy Twoim urządzeniem lokalnym (na którym uruchamiasz rclone) a oficjalnymi serwerami Google.
+
+4. Bezpieczeństwo danych
+
+• rclone szyfruje tokeny w pliku konfiguracyjnym, jeśli użytkownik zdecyduje się na ustawienie hasła do profilu rclone (zalecane).
+• Transmisja danych pomiędzy rclone a Google Drive jest w pełni szyfrowana przy użyciu protokołu HTTPS (TLS).
+
+5. Dostęp podmiotów trzecich i Google Limited Use
+
+Wykorzystanie informacji otrzymanych z interfejsów API Google przez rclone jest zgodne z Google API Services User Data Policy, w tym z wymaganiami dotyczącymi ograniczonego użycia (Limited Use). Dane nie są wykorzystywane do celów reklamowych, profilowania ani udostępniane podmiotom trzecim.
+
+6. Jak cofnąć dostęp?
+
+W każdej chwili możesz usunąć tokeny lokalnie z pliku rclone.conf lub całkowicie odebrać uprawnienia dla swojej aplikacji w panelu zarządzania kontem Google pod adresem: google.com.
+
+7. Kontakt
+
+W razie pytań dotyczących niniejszej polityki prywatności prosimy o kontakt pod adresem e-mail: wapagru@gmail.com.
