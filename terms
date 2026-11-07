@@ -1,0 +1,37 @@
+
+Warunki Użytkowania Aplikacji (Terms of Service) dla Integracji rclone z Google Drive
+
+Ostatnia aktualizacja: 7 listopada 2026 r.
+Witamy w konfiguracji prywatnej aplikacji klienckiej dla programu rclone. Niniejsze Warunki Użytkowania określają zasady korzystania z integracji rclone z usługą Google Drive za pośrednictwem dedykowanego identyfikatora klienta (Client ID).
+
+1. Akceptacja Warunków
+
+Korzystając z tej aplikacji klienckiej w celu uzyskania dostępu do konta Google Drive za pośrednictwem programu rclone, użytkownik wyraża zgodę na przestrzeganie niniejszych Warunków Użytkowania. Jeśli nie zgadzasz się z którymkolwiek z zapisów, należy natychmiast zaprzestać korzystania z aplikacji i cofnąć jej uprawnienia w panelu Google.
+
+2. Przeznaczenie i Dozwolony Użytek
+
+• Cel aplikacji: Aplikacja służy wyłącznie jako interfejs uwierzytelniający (brama OAuth 2.0) umożliwiający narzędziu rclone bezpieczną komunikację z przestrzenią dyskową Google Drive użytkownika.
+• Użytek prywatny/wewnętrzny: Aplikacja jest przeznaczona do użytku osobistego, rodzinnego lub wewnętrznego w ramach organizacji administratora aplikacji. Niedozwolone jest publiczne udostępnianie danych uwierzytelniających (Client ID i Client Secret) osobom trzecim.
+• Zgodność z prawem: Użytkownik zobowiązuje się do korzystania z aplikacji w sposób zgodny z obowiązującym prawem, w tym przepisami dotyczącymi prawa autorskiego i ochrony danych osobowych.
+
+3. Odpowiedzialność za Dane i Sprzęt
+
+• Brak odpowiedzialności administratora: Jako twórca/administrator tej instancji aplikacji klienckiej, nie ponoszę odpowiedzialności za jakiekolwiek utraty danych, uszkodzenia plików, błędy synchronizacji ani przerwy w działaniu usługi Google Drive wynikające z korzystania z programu rclone.
+• Kopie zapasowe: Użytkownik korzysta z narzędzia rclone na własne ryzyko i jest odpowiedzialny za tworzenie odpowiednich kopii zapasowych kluczowych danych.
+
+4. Usługi Firm Trzecich (Google)
+
+Korzystanie z aplikacji wymaga aktywnego konta w usłudze Google Drive. Użytkownik jest zobowiązany do przestrzegania niezależnych warunków świadczenia usług firmy Google (Google Terms of Service). W przypadku zablokowania lub ograniczenia konta przez Google, działanie aplikacji rclone może zostać przerwane.
+
+5. Zakończenie Korzystania
+
+• Użytkownik może w każdej chwili zrezygnować z korzystania z aplikacji poprzez usunięcie pliku konfiguracyjnego rclone.conf na swoim urządzeniu oraz odebranie uprawnień aplikacji na stronie: google.com.
+• Administrator zastrzega sobie prawo do wyłączenia lub usunięcia identyfikatora klienta (Client ID) w Google Cloud Console w dowolnym momencie, bez podania przyczyny (np. w przypadku wykrycia nadużyć lub wycieku kluczy).
+
+6. Zmiany w Warunkach
+
+Niniejsze Warunki Użytkowania mogą być aktualizowane w celu dostosowania ich do nowych wymagań technicznych lub prawnych stawianych przez Google. Dalsze korzystanie z aplikacji po wprowadzeniu zmian oznacza ich akceptację.
+
+7. Kontakt
+
+Wszelkie pytania lub uwagi dotyczące działania aplikacji należy kierować na adres e-mail: wapagru@gmail.com.
